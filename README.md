@@ -71,7 +71,7 @@ MICROSIDE v1.0 [**Descarga**](https://microside.com/wp-content/uploads/2021/12/M
 {% file src=".gitbook/assets/demo.txt" %}
 
 {% content-ref url="https://github.com/vhperaltaj/1-Blink-LED-mikroC-PRO-for-PIC-PIC18F4550-45K50/archive/refs/heads/main.zip" %}
-[Proyecto](https://github.com/vhperaltaj/1-Blink-LED-mikroC-PRO-for-PIC-PIC18F4550-45K50/archive/refs/heads/main.zip)
+[Proyecto](Blink led pic18F45k50)
 {% endcontent-ref %}
 
 Este texto va después del archivo de descarga
