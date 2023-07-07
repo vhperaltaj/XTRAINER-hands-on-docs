@@ -70,4 +70,8 @@ MICROSIDE v1.0 [**Descarga**](https://microside.com/wp-content/uploads/2021/12/M
 
 {% file src=".gitbook/assets/demo.txt" %}
 
+{% content-ref url="dummy-link.md" %}
+[dummy-link.md](dummy-link.md)
+{% endcontent-ref %}
+
 Este texto va después del archivo de descarga
