@@ -28,7 +28,7 @@ MICROSIDE v1.0 [**Descarga**](https://microside.com/wp-content/uploads/2021/12/M
 
 **2.** Al final de esta práctica, en el apartado de “Descargas”, puedes encontrar los archivos del código fuente.
 
-**3.** Ejecuta **mikroC PRO compiler**, abre el archivo descargado y compila el programa. En el siguiente [**link**](https://microside.com/docs/mikroc/manual-mikroc-pro-for-pic/) encontrarás un manual para compilar en mikroC PRO compiler. &#x20;
+**3.** Ejecuta **mikroC PRO compiler**, abre el archivo descargado y compila el programa. En el siguiente [**link**](https://microside.com/docs/mikroc/manual-mikroc-pro-for-pic/) encontrarás un manual para compilar en mikroC PRO compiler.
 
 **4.** Abre el Software **MICROSIDE v1.0** y programa el código que descargaste y compilaste en la tarjeta. En el siguiente[ **link**](https://microside.com/docs/manual-software-microside-v1/) encontrarás el manual de usuario para el Software **MICROSIDE v1.0**.
 
@@ -38,7 +38,7 @@ MICROSIDE v1.0 [**Descarga**](https://microside.com/wp-content/uploads/2021/12/M
 
 {% tabs %}
 {% tab title="X-TRAINER LITE M" %}
-<figure><img src="https://github.com/vhperaltaj/1-Blink-LED-mikroC-PRO-for-PIC-PIC18F4550-45K50/blob/40c1d2db71578483a9a942b71348702fb34450f8/Diagrama%20de%20conexi%C3%B3n/X-TRAINER_PIC18F45K50_PIC18F4550_MICROSIDE_01.png?raw=true" alt=""><figcaption></figcaption></figure>
+<figure><img src="https://raw.githubusercontent.com/vhperaltaj/1-Blink-LED-mikroC-PRO-for-PIC-PIC18F4550-45K50/main/Diagrama%20de%20conexi%C3%B3n/X-TRAINER_PIC18F45K50_PIC18F4550_MICROSIDE_01.png" alt=""><figcaption></figcaption></figure>
 {% endtab %}
 
 {% tab title="X-TRAINER LITE F" %}
