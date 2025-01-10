@@ -4,7 +4,7 @@
 
 
 
-<table data-card-size="large" data-view="cards"><thead><tr><th></th><th align="center"></th><th></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td></td><td align="center"><mark style="color:green;"><strong>Comprar</strong></mark></td><td></td><td><a href="https://store.microside.com/">https://store.microside.com/</a></td></tr></tbody></table>
+<table data-card-size="large" data-view="cards"><thead><tr><th align="center"></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td align="center"><mark style="color:green;"><strong>Comprar</strong></mark></td><td><a href="https://store.microside.com/">https://store.microside.com/</a></td></tr></tbody></table>
 
 El **X-NODE Digital Inputs** es un módulo que integra un switch deslizable de 8 interruptores tipo palanca los cuales pueden variar entre dos posiciones ON <> OFF y un puerto de conexión con 8 entradas y GND. El switch posee una vida eléctrica de hasta 2000 ciclos, una resistencia de aislamiento de hasta 100 MΩ y puede operar en un rango de temperatura de -10 °C hasta 80 °C. El uso de este X-NODE es de propósito general, ya que se usa comúnmente para leer el estado de una señal digital y de esta forma lograr cambios de estado, secuencias o realizar configuraciones en proyectos electrónicos que integren indicadores y actuadores.
 
