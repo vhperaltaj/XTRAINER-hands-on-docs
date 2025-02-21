@@ -309,7 +309,7 @@ Puede ocurrir si se utilizó la opción **Reconfigure** cuando el equipo aún es
 
 <details>
 
-<summary><strong>La pantalla del dispositivo no enciende</strong></summary>
+<summary>La pantalla del dispositivo no enciende</summary>
 
 Primero revise si el dispositivo enciende, retire la tapa del gabinete y observe el estado de los LEDs del **X-NODE Power Supply AC**, si están apagados revise la problemática **El dispositivo no enciende.** Si el dispositivo enciende y se conecta a la nube con normalidad, entonces revise que el cableado que va hacia la pantalla. Si alguno de los cables no se encuentra correctamente conectado deberá volver a conectarlo con el **X-NODE Expansion Signal.**:
 
