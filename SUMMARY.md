@@ -8,6 +8,6 @@
       * [XN01 - Digital Inputs](plataforma-xide/xide-iot-and-i4.0/iot/x-nodes/xn01-digital-inputs.md)
   * [Practica 1 - Blink LED](plataforma-xide/xide-iot-and-i4.0/readme.md)
 
-***
+## Products
 
-* [IoT Hygrometer](iot-hygrometer.md)
+* [IoT Hygrometer](products/iot-hygrometer.md)

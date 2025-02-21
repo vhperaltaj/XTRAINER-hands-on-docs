@@ -8,7 +8,7 @@ layout:
   description:
     visible: true
   tableOfContents:
-    visible: false
+    visible: true
   outline:
     visible: false
   pagination:
@@ -17,7 +17,7 @@ layout:
 
 # IoT Hygrometer
 
-<figure><img src=".gitbook/assets/product-image-front.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/product-image-front.png" alt=""><figcaption></figcaption></figure>
 
 El **Higrómetro IIoT** es un dispositivo diseñado para monitorear la temperatura y humedad en procesos de producción industriales, la conectividad inalámbrica por Wifi permite obtener información en tiempo real a cualquier hora en cualquier parte del mundo a través de internet. El sensor integrado tiene un rango de detección de 0 °C a 85 °C con una precisión típica de +/- 0.2 °C y +/- 1.8% **RH** (humedad relativa), implementa un mecanismo de **calibración automática,** lo que le permite funcionar por largos periodos de tiempo antes de requerir mantenimiento, con una desviación típica menor a <0.03°C al año y <0.2%RH al año\*\*.&#x20;
 
@@ -64,7 +64,7 @@ El gabinete con cierre hermético IP65, protege al dispositivo contra elementos 
 
 ## II. Descripción del Hardware
 
-<figure><img src=".gitbook/assets/hardware-description-components.jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/hardware-description-components.jpg" alt=""><figcaption></figcaption></figure>
 
 1. Pantalla **TFT** de 3.5″, resolución de 320x480px.&#x20;
 2. Cable de alimentación 110 a 220VAC tipo B.
@@ -87,11 +87,11 @@ El gabinete con cierre hermético IP65, protege al dispositivo contra elementos 
 
 Con el objetivo de proteger al dispositivo durante el transporte, el gabinete tiene relleno de embalaje. Utilizando un destornillador plano, abra el gabinete girando los 4 seguros herméticos girando de la posición cerrado (A), en sentido contrario a las manecillas del reloj, a la posición abierto (B).
 
-<figure><img src=".gitbook/assets/lock_positions.png" alt=""><figcaption><p>Posición cerrada (A), girar en sentido contrario a las manecillas del reloj a la posición abierta (B).</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/lock_positions.png" alt=""><figcaption><p>Posición cerrada (A), girar en sentido contrario a las manecillas del reloj a la posición abierta (B).</p></figcaption></figure>
 
 Levante la tapa, la cual se encuentra sujeta al resto del gabinete a través de unos sujetadores plásticos en la parte inferior y la pantalla TFT, que se encuentra conectada al sistema a través de un arnés de cable. Cuidadosamente remueva el relleno de embalaje del interior del gabinete, además, el conector se encuentra sujeto a la parte posterior de la tapa con cinta, remueva la cinta y corte el exceso del protector del arnés, tenga cuidado de no cortar los cables o el conector.
 
-<figure><img src=".gitbook/assets/product_image_cut_guide.png" alt=""><figcaption><p>Guía para cortar el protector del arnés de cable de la pantalla.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/product_image_cut_guide.png" alt=""><figcaption><p>Guía para cortar el protector del arnés de cable de la pantalla.</p></figcaption></figure>
 
 Revise el contenido del gabinete, la sección [**Descripción del Hardware**](iot-hygrometer.md#ii.-descripcion-del-hardware) indica la posición que debe tener cada uno de los nodos, si durante el transporte alguno de los **X-NODE** no se encuentra en su respectivo zócalo conéctelo apropiadamente.
 
@@ -103,7 +103,7 @@ Revise el contenido del gabinete, la sección [**Descripción del Hardware**](io
 
 Al terminar de retirar el relleno del embalaje, coloque la tapa y cierre el gabinete colocando los seguros herméticos en la posición de cerrado (A). A continuación, revise que el interruptor se encuentre en la posición de apagado (0) y conecte el dispositivo a la red eléctrica (110 o 220 VAC). Después accione el interruptor a la posición de encendido (1) lo que iluminará el piloto del interruptor, después espere 3-4 segundos mientras enciende el dispositivo, al hacerlo se mostrará la siguiente pantalla:
 
-<figure><img src=".gitbook/assets/ui_power_on.png" alt="" width="375"><figcaption><p>Pantalla inicial</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/ui_power_on.png" alt="" width="375"><figcaption><p>Pantalla inicial</p></figcaption></figure>
 
 Si el dispositivo no enciende coloque el interruptor en la posición de apagado (1) y desconéctelo de la red eléctrica, después abra el gabinete e inspeccione que los **X-NODE** estén correctamente conectados a los zócalos, también revise que los cables de alimentación AC estén correctamente conectados a la clema del **X-NODE Power Supply AC**, revise que el conector de la pantalla esté firmemente sujeto, y que los cables se encuentren conectados correctamente al **X-NODE Expansion Signal**, por último, revise que los jumper de configuración de la **X-BOARD IIoTrainer** se encuentren en la posición correcta.
 
@@ -117,19 +117,19 @@ Si no cuenta con una suscripción, o es la primera vez que adquiere un dispositi
 
 Descargue la aplicación móvil [Blynk para iOS](https://apps.apple.com/es/app/blynk-iot/id1559317868):
 
-<figure><img src=".gitbook/assets/blynk_ios_qr.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/blynk_ios_qr.png" alt=""><figcaption></figcaption></figure>
 
 O para [Android](https://play.google.com/store/apps/details?id=cloud.blynk\&hl=es\&pli=1):
 
-<figure><img src=".gitbook/assets/blynk_android_qr.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/blynk_android_qr.png" alt=""><figcaption></figcaption></figure>
 
 Abra la App de Blynk, si el dispositivo ya fue registrado y desea conectarlo a una red inalámbrica diferente consulte la sección: **Conectar el dispositivo a una nueva red Wifi.** Si es la primera vez que conecta el dispositivo a la nube presione el botón **+ Add new Device**, o el botón **+** (1)**.** Después seleccione la opción **Find devices nearby** (2), puede que la aplicación le solicite permisos para acceder a la red inalámbrica Wifi y Bluetooth. Después comenzará un escaneo para encontrar al dispositivo (3), si la aplicación no puede encontrarlo, utilice el botón pulsador para aplicar un reinicio al **Higrómetro IoT**, consulte la sección **Conectar el dispositivo a una nueva red Wifi** para obtener más información de este proceso.
 
-<figure><img src=".gitbook/assets/user-manual-cloud-connect-step-1-to-3.jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/user-manual-cloud-connect-step-1-to-3.jpg" alt=""><figcaption></figcaption></figure>
 
 Al encontrar el dispositivo, la aplicación le preguntará si desea configurarlo, deberá presionar la opción **Conectarse** (4), espere unos segundos mientras la aplicación obtiene la información del dispositivo (5), después se mostrará una pantalla en donde deberá proporcionar el nombre de red y la contraseña de la red inalámbrica (6), después de proporcionar estos datos presione el botón **Continue**.  La pantalla del **Higrómetro IoT** mostrará una serie de iconos indicando el estado de la conexión, puede consultar su significado en la sección **Solución de problemas.**
 
-<figure><img src=".gitbook/assets/user-manual-cloud-connect-step-4-to-6.jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/user-manual-cloud-connect-step-4-to-6.jpg" alt=""><figcaption></figcaption></figure>
 
 <details>
 
@@ -141,7 +141,7 @@ Para conectarse a una **Red WiFi Oculta** presione el campo de Red WiFi y edite 
 
 </details>
 
-<figure><img src=".gitbook/assets/user-manual-cloud-connect-step-6_1-to-6_3.jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/user-manual-cloud-connect-step-6_1-to-6_3.jpg" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 El dispositivo es compatible con redes inalámbricas **802.11b/g/n a 2.4GHz** con claves de seguridad **WEP/WPA-TKIP/WPA2-CCMP**, con servidores **DHCP o IP estática**. Si tiene problemas al conectar el dispositivo consulte con el administrador de la red para asegurarse que la configuración inalámbrica es correcta.
@@ -157,7 +157,7 @@ La información en **Set Up** **Device** es opcional, son datos que el usuario p
 
 Al finalizar se mostrará el tablero móvil donde podrá observar las variables en tiempo real (9).
 
-<figure><img src=".gitbook/assets/user-manual-cloud-connect-step-7-to-9.jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/user-manual-cloud-connect-step-7-to-9.jpg" alt=""><figcaption></figcaption></figure>
 
 ### 3.1 Aplicación de escritorio
 
@@ -171,15 +171,15 @@ Si no cuenta con una suscripción, o es la primera vez que adquiere un dispositi
 
 Los reportes contienen la información capturada por sus dispositivos y los eventos (conexiones, desconexiones, fallas) que se registraron durante un periodo de tiempo que puede ser de hasta 3 o 6 meses (dependiendo del tipo de suscripción). Para generar un reporte primero haga clic en el dispositivo del que desea obtener información desde la sección **Devices.**
 
-<figure><img src=".gitbook/assets/user-manual-cloud-desktop-step-1.jpeg" alt=""><figcaption><p>Sección <strong>Devices</strong> en <strong>Blynk.Console</strong></p></figcaption></figure>
+<figure><img src="../.gitbook/assets/user-manual-cloud-desktop-step-1.jpeg" alt=""><figcaption><p>Sección <strong>Devices</strong> en <strong>Blynk.Console</strong></p></figcaption></figure>
 
-Después haga clic en el botón **Descargar reporte** ![](.gitbook/assets/user-manual-cloud-desktop-step-2.jpg)que se encuentra debajo del nombre del dispositivo. Configure el periodo de tiempo y las variables de interés para el reporte. Puede decidir si incluir eventos (conexiones, desconexiones, fallas). Si habilita la opción **Send a link to e-mail**, puede enviar el enlace de descarga del reporte a un correo electrónico, el campo **RECIPIENTS** le permite seleccionar un correo de destino. Por último, en las opciones avanzadas puede usar **funciones de agregación**, en periodos de tiempo muy largos puede mostrar los datos por minutos, horas o días, utilizando el promedio, mínimo, máximo, suma y conteo, si no está seguro omita esta configuración. También puede editar la zona horaria para los reportes y el formato de fecha y hora. Presione el botón **Generate Report** para finalizar.
+Después haga clic en el botón **Descargar reporte** ![](../.gitbook/assets/user-manual-cloud-desktop-step-2.jpg)que se encuentra debajo del nombre del dispositivo. Configure el periodo de tiempo y las variables de interés para el reporte. Puede decidir si incluir eventos (conexiones, desconexiones, fallas). Si habilita la opción **Send a link to e-mail**, puede enviar el enlace de descarga del reporte a un correo electrónico, el campo **RECIPIENTS** le permite seleccionar un correo de destino. Por último, en las opciones avanzadas puede usar **funciones de agregación**, en periodos de tiempo muy largos puede mostrar los datos por minutos, horas o días, utilizando el promedio, mínimo, máximo, suma y conteo, si no está seguro omita esta configuración. También puede editar la zona horaria para los reportes y el formato de fecha y hora. Presione el botón **Generate Report** para finalizar.
 
 {% hint style="warning" %}
 Solo puede generar hasta 10 reportes por dispositivo por día.
 {% endhint %}
 
-<figure><img src=".gitbook/assets/user-manual-cloud-desktop-step-3.jpeg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/user-manual-cloud-desktop-step-3.jpeg" alt=""><figcaption></figcaption></figure>
 
 ### 4. Recibir notificaciones (automatizaciones)
 
@@ -190,7 +190,7 @@ La aplicación móvil le permite recibir notificaciones en base al estado de las
 * **Device state:** Automatización generada en base al estado de una variable.
 * **Scene:** Automatización que debe ser activada por el algún usuario dentro de la organización.
 
-<figure><img src=".gitbook/assets/user-manual-automation-config-step-1-to-3.jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/user-manual-automation-config-step-1-to-3.jpg" alt=""><figcaption></figcaption></figure>
 
 Seleccione la condición y los valores (si aplica) que generarán la notificación (4):
 
@@ -217,7 +217,7 @@ En la sección **Settings** personalice el nombre de la automatización (5) y se
 
 Una vez finalizada la configuración su automatización está lista, puede desactivarla en cualquier momento presionando el botón deslizable (6).
 
-<figure><img src=".gitbook/assets/user-manual-automation-config-step-4-to-6.jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/user-manual-automation-config-step-4-to-6.jpg" alt=""><figcaption></figcaption></figure>
 
 {% hint style="warning" %}
 Para que las notificaciones funcionen debe **permitir** recibir notificaciones de la aplicación **Blynk IoT** en la configuración de su teléfono. En la App Móvil solo el usuario que creó la notificación podrá recibirla, utilice la versión de escritorio para personalizar los destinatarios.
@@ -227,7 +227,7 @@ Para que las notificaciones funcionen debe **permitir** recibir notificaciones d
 
 La aplicación de escritorio no puede recibir notificaciones, sin embargo, puede crearlas y personalizar parámetros adicionales, por ejemplo, los destinatarios. Para crear una automatización haga clic en la pestaña de **Automations** en [**Blynk.Console**](https://blynk.cloud/), seleccione el tipo de automatización **Device State.**
 
-<figure><img src=".gitbook/assets/user-manual-automation-config-desktop-step-1.jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/user-manual-automation-config-desktop-step-1.jpg" alt=""><figcaption></figcaption></figure>
 
 Asigne un nombre a la automatización y utilizando las listas desplegables seleccionone **el dispositivo** del que quiere recibir notificaciones, **la variable** y la **condición** que generará la notificación.  En la sección **Do this** escoja el tipo de automatización, puede seleccionar más de una si presiona el botón **(+) Add next action.** En la versión de escritorio además puede escoger los **Recipientes**, es decir, los usuarios de su organización que van a recibir la notificación. Además, en el mensaje puede arrastrar campos generados automáticamente cuando se dispara la automatización:
 
@@ -238,11 +238,11 @@ Asigne un nombre a la automatización y utilizando las listas desplegables selec
 * **Template name**: Es el modelo del producto.
 * **Device name**: Nombre del dispositivo asignado durante la configuración.
 
-<figure><img src=".gitbook/assets/user-manual-automation-config-desktop-step-2.jpeg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/user-manual-automation-config-desktop-step-2.jpeg" alt=""><figcaption></figcaption></figure>
 
-Con el botón de configuración <img src=".gitbook/assets/user-manual-automation-config-desktop-step-3.jpg" alt="" data-size="line"> puede editar un límite de tiempo (**LIMIT PERIOD**) antes de que esta automatización puede volver a activarse, si escoge tiempos muy cortos puede, por ejemplo, recibir cientos de notificaciones en unos cuantos minutos, seleccione un límite que sea apropiado para su aplicación.
+Con el botón de configuración <img src="../.gitbook/assets/user-manual-automation-config-desktop-step-3.jpg" alt="" data-size="line"> puede editar un límite de tiempo (**LIMIT PERIOD**) antes de que esta automatización puede volver a activarse, si escoge tiempos muy cortos puede, por ejemplo, recibir cientos de notificaciones en unos cuantos minutos, seleccione un límite que sea apropiado para su aplicación.
 
-<figure><img src=".gitbook/assets/user-manual-automation-config-desktop-step-4.jpeg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/user-manual-automation-config-desktop-step-4.jpeg" alt=""><figcaption></figcaption></figure>
 
 ### 5. Conectar el dispositivo a una nueva red Wifi
 
@@ -250,7 +250,7 @@ Si el nombre de red Wifi o la contraseña cambiaron, o si desea cambiar la ubica
 
 En la Aplicación móvil de Blynk seleccione el dispositivo que desea reconfigurar, después presione el botón de **información del dispositivo**, finalmente presione el botón (°°°) para desplegar las opciones adicionales, allí seleccione **Reconfigure**, al hacerlo se desplegará de **Búsqueda de dispositivos cercanos**. Siga las instrucciones de la sección **Conexión a la nube** a partir del punto 4.
 
-<figure><img src=".gitbook/assets/user-manual-cloud-reconnect-step-1-to-3.jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/user-manual-cloud-reconnect-step-1-to-3.jpg" alt=""><figcaption></figcaption></figure>
 
 {% hint style="warning" %}
 Si al reconfigurar un dispositivo utiliza la opción **(+) Add Device** en lugar de **Reconfigure**, el dispositivo se agregará como un nuevo dispositivo. Sin embargo, dependiendo de la cantidad de licencias en su suscripción, el dispositivo anterior **podrá ser eliminado** en un periodo de 24 horas y con ello toda la información capturada en ese periodo para motivos de generación de reportes. Si por error realizó esta operación y desea conservar los datos contacte con un representante de soporte inmediatamente para evitar la pérdida de información.
@@ -264,9 +264,9 @@ Si al reconfigurar un dispositivo utiliza la opción **(+) Add Device** en lugar
 
 Revise la calidad de la señal inalámbrica en el sitio donde instaló el dispositivo, en la pantalla del **Higrómetro IoT** verifique el icono de Wifi.
 
-* <img src=".gitbook/assets/wifi-excellent.png" alt="" data-size="line"> La señal es excelente, las desconexiones pueden deberse a problemas en la red.
-* <img src=".gitbook/assets/wifi-good.png" alt="" data-size="line">La señal es buena, sin embargo, si es posible coloque el dispositivo en una posición con mejor recepción de señal o instale un punto de acceso más cercano si las desconexiones son frecuentes.
-* <img src=".gitbook/assets/wifi-poor.png" alt="" data-size="line">La señal es pobre, coloque el dispositivo en una posición con mejor recepción o instale un punto de acceso más cercano.
+* <img src="../.gitbook/assets/wifi-excellent.png" alt="" data-size="line"> La señal es excelente, las desconexiones pueden deberse a problemas en la red.
+* <img src="../.gitbook/assets/wifi-good.png" alt="" data-size="line">La señal es buena, sin embargo, si es posible coloque el dispositivo en una posición con mejor recepción de señal o instale un punto de acceso más cercano si las desconexiones son frecuentes.
+* <img src="../.gitbook/assets/wifi-poor.png" alt="" data-size="line">La señal es pobre, coloque el dispositivo en una posición con mejor recepción o instale un punto de acceso más cercano.
 
 Cuando el dispositivo se conecta a la red inalámbrica el icono de señal Wifi cambiará en secuencia ascendente. Si ocurre esto con frecuencia entonces es posible que la señal inalámbrica sea pobre o inestable.
 
@@ -330,11 +330,11 @@ Si los cables están correctamente conectados puede intentar reemplazar el arné
 
 <summary>¿Qué significan los iconos en la pantalla del Higrómetro IoT?</summary>
 
-* <img src=".gitbook/assets/cloud_settings_icon.jpg" alt="" data-size="line"> Indica que el dispositivo está siendo configurado a través de la aplicación móvil Blynk.
-* <img src=".gitbook/assets/cloud_connecting.jpg" alt="" data-size="line"> Indica que el dispositivo se está conectando a la nube de Blynk. También se muestra durante las reconexiones a la nube.
-* <img src=".gitbook/assets/cloud_connected.jpg" alt="" data-size="line"> Indica que el dispositivo está conectado y reportando a la nube de Blynk.
-* <img src=".gitbook/assets/cloud_denied.jpg" alt="" data-size="line"> Indica que la conexión a la nube falló, puede deberse a que se eliminó el dispositivo desde Blynk o se utilizó la opción **Reconfigure.** Consulte la sección **Conectar el dispositivo a una nueva red Wifi.**
-* <img src=".gitbook/assets/cloud_fw_download.jpg" alt="" data-size="line"> Indica que una **actualización de firmware** se está llevando a cabo, no desconecte el dispositivo durante este proceso.
+* <img src="../.gitbook/assets/cloud_settings_icon.jpg" alt="" data-size="line"> Indica que el dispositivo está siendo configurado a través de la aplicación móvil Blynk.
+* <img src="../.gitbook/assets/cloud_connecting.jpg" alt="" data-size="line"> Indica que el dispositivo se está conectando a la nube de Blynk. También se muestra durante las reconexiones a la nube.
+* <img src="../.gitbook/assets/cloud_connected.jpg" alt="" data-size="line"> Indica que el dispositivo está conectado y reportando a la nube de Blynk.
+* <img src="../.gitbook/assets/cloud_denied.jpg" alt="" data-size="line"> Indica que la conexión a la nube falló, puede deberse a que se eliminó el dispositivo desde Blynk o se utilizó la opción **Reconfigure.** Consulte la sección **Conectar el dispositivo a una nueva red Wifi.**
+* <img src="../.gitbook/assets/cloud_fw_download.jpg" alt="" data-size="line"> Indica que una **actualización de firmware** se está llevando a cabo, no desconecte el dispositivo durante este proceso.
 
 </details>
 
