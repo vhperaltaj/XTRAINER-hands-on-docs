@@ -18,8 +18,8 @@ El **X-NODE Digital Inputs** es un módulo que integra un switch deslizable de 8
    * [Protocolo UART](xn01-digital-inputs.md#protocolo-uart)
    * [Protocolo I2C](xn01-digital-inputs.md#protocolo-i2c)
 6. [Descargas](xn01-digital-inputs.md#vi.-descargas)
-   * [Esquemático](../../../../dummy-link.md)
-   * [Dimensiones](../../../../dummy-link.md)
+   * [Esquemático](broken-reference)
+   * [Dimensiones](broken-reference)
 
 
 
@@ -102,5 +102,5 @@ Para poder establecer comunicación se debe conocer la dirección (address) del 
 
 ### **VI. Descargas**
 
-<table data-card-size="large" data-view="cards"><thead><tr><th align="center"></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td align="center"><mark style="color:green;"><strong>Esquemático</strong></mark></td><td><a href="../../../../dummy-link.md">dummy-link.md</a></td></tr><tr><td align="center"><mark style="color:green;"><strong>Dimensiones</strong></mark></td><td><a href="../../../../dummy-link.md">dummy-link.md</a></td></tr></tbody></table>
+<table data-card-size="large" data-view="cards"><thead><tr><th align="center"></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td align="center"><mark style="color:green;"><strong>Esquemático</strong></mark></td><td><a href="broken-reference">Broken link</a></td></tr><tr><td align="center"><mark style="color:green;"><strong>Dimensiones</strong></mark></td><td><a href="broken-reference">Broken link</a></td></tr></tbody></table>
 
